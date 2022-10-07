@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.active {
+  color: #10C9C3;
+}
+.jumbotron {
+  background: url("images/aidan-hancock-8RU4OuA6Yug-unsplash.png"); 
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center center;
+  height: 100% !important;
+}
+.btn.btn-primary {
+  background: #10C9C3;
+  border-color: #10C9C3;
+  border-radius: 0%
+}
+.container-bg {
+  background: #10C9C3;
+}
+.aboutUs1Style {
+  font-family: Montserrat;
+}
+.grey-background {
+  background: #F5F5F5;
+}
+.robinegg-background {
+  background: #10C9C3
+}
+.darkertext {
+  color: #141414;
+}
+.lightertext {
+  color: grey;
+}
+.section-text {
+  color: white;
+}
+.proskillsimg {
+  background-image:url("images/stil-sHGyGynyD5Y-unsplash.png"); 
+  background-size: cover; 
+  background-position: center center;
+}
+.image-width {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.hover-section-pics{
+        height: auto;
+        max-height: 425px;
+        overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+.progress-bar{
+  background:#10C9C3 !important;
+}
+.progress-image {
+  background-size: cover;
+}
+.fontMont {
+  font-family: Montserrat;
+}
+.fontNunito {
+  font-family: Nunito Sans;
+}
